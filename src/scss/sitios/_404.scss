@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.pagina_404 {
+    @include m.contenedor-sm;
+    min-height: 41rem;
+    &__contenedor {
+        text-align: center;
+    }
+
+    &__enlace{
+        color: v.$azul;
+    }
+}

@@ -1,0 +1,20 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.footer {
+    background-color: v.$azul;
+    padding: 2rem 0;
+    margin-top: 5rem;
+
+    &__copyright {
+        font-size: 2rem;
+        color: v.$blanco;
+        font-weight: v.$bold;
+        text-align: center;
+
+        &--regular{ 
+            font-weight: v.$regular;
+        }
+    }
+    
+}

@@ -1,0 +1,6 @@
+@use 'base/mixins' as m;
+
+.auth {
+    @include m.contenedor-sm;
+    min-height: 41.5rem;
+}

@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.header {
+    background: rgb(0,0,71);
+    background: linear-gradient(150deg, rgba(0,0,71,1) 0%, rgba(10,79,170,1) 51%, rgba(0,212,255,1) 100%); 
+
+    &__contenedor {
+        @include m.contenedor;
+    }
+
+    &__contenido {
+        padding: 1rem;
+    }
+
+    &__logo{
+        @include m.texto-fluido(2rem, 5rem);
+        color: v.$blanco;
+        text-align: center;
+        @include m.tablet{
+            text-align: start;
+
+        }
+    }
+}
