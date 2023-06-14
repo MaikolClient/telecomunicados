@@ -185,7 +185,7 @@ class ActiveRecord
     //Llamar procedimiento almacenado que trae los anexos bloqueados
     public static function bloqueados()
     {
-        $query = "SELECT * FROM " . static::$tabla . " WHERE estado_anexo_id = 2 AND eliminado_id = 1 ORDER BY id desc";
+        $query = "SELECT * FROM " . static::$tabla . " WHERE estado_anexo_id = 2 AND eliminado_id = 1 ORDER BY fecha desc";
         $resultado = self::consultarSQL($query);
         return $resultado;
     }
