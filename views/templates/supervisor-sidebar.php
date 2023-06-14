@@ -24,16 +24,16 @@
                 Bloqueados
             </span>
         </a>
-        <a  href="/supervisor/llamadas" class="dashboard__enlace <?php echo pagina_actual('/asterisk') ? 'dashboard__enlace--actual' : ''; ?>">
+        <a  href="/supervisor/llamadas" class="dashboard__enlace <?php echo pagina_actual('/llamadas') ? 'dashboard__enlace--actual' : ''; ?>">
         <i class="fa-solid fa-asterisk"></i>
         <span class="dashboard__menu-texto">
-                Logs Asterisk
+                Visualizador de Llamadas
             </span>
         </a>
         <a href="/supervisor/logs" class="dashboard__enlace <?php echo pagina_actual('/logs') ? 'dashboard__enlace--actual' : ''; ?>">
         <i class="fa-solid fa-note-sticky"></i>
         <span class="dashboard__menu-texto">
-                Logs
+                Registros del Sistema
             </span>
         </a>
     </nav>

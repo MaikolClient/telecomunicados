@@ -38,6 +38,6 @@
         </select>
     </div>
 </fieldset>
-        <input class="formulario__submit formulario__submit--registrar" type="submit" onclick="return actualizar()" value="Actualizar anexo">
+        <input class="formulario__submit formulario__submit--registrar" type="submit" onclick="return actualizar()" value="Actualizar troncal">
     </form>
 </div>

@@ -151,14 +151,14 @@ class TroncalesController
 
         if ($_SESSION['cargo_id'] == 1 || $_SESSION['cargo_id'] == 2) {
             $router->render('admin/troncales/editar', [
-                'titulo' => 'Editar anexo',
+                'titulo' => 'Editar troncal',
                 'alertas' => $alertas,
                 'troncal' => $troncal,
                 'companias' => $companias
             ]);
         } else {
             $router->render('supervisor/troncales/editar', [
-                'titulo' => 'Editar anexo',
+                'titulo' => 'Editar troncal',
                 'alertas' => $alertas,
                 'troncal' => $troncal,
                 'companias' => $companias

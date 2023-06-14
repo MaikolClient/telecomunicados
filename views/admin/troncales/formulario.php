@@ -11,7 +11,7 @@
         value="<?php echo $troncal->troncal ?? ''; ?>"
         required
         >
-        <label for="compania" class="formulario__label">Seleccionar área</label>
+        <label for="compania" class="formulario__label">Seleccionar compañía</label>
         <select
             class="formulario__select"
             id="compania"
